@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 :root {
   --text-muted: #6b7280;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 nav {
@@ -38,7 +44,7 @@ a:hover {
 }
 
 main {
-  height: 75vh;
+  min-height: 75vh;
 }
 
 .hero {
@@ -62,8 +68,24 @@ main {
 
 .hero a {
   background-color: pink;
-
   padding: 1rem 2.5rem;
   border-radius: 50px;
   border: 1px solid black;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stock {
+  display: flex;
+  width: 50vh;
+  gap: 100px;
+  margin-left: 100px;
+}
+
+.about {
+  width: 50vh;
+  margin-left: 100px;
 }
